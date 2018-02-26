@@ -1,3 +1,4 @@
 function getFirstSelector(selector) {
-  return querySelector(selector)
+  var sel = querySelector(selector)
+  return sel
 }
