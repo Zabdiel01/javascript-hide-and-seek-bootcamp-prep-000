@@ -21,6 +21,6 @@ function deepestChild() {
     
     }
   } else {
-    return current
+    return current.innerHTML
   }
 }
