@@ -10,6 +10,6 @@ function increaseRankBy(n) {
   
   for (let i=0;i<item.length;i++) {
     var num = parseInt(item[i].innerHTML)
-    var newNum = num + n
+    num + n
   }
 }
